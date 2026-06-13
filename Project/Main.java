@@ -62,7 +62,7 @@ class Flight {
 
 public class Main {
     public static void main(String[] args) {
-
+System.out.println("Welcome to Flight Booking System!");
         // Create flight
         Flight flight = new Flight(5);
 
