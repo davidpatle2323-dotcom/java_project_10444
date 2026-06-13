@@ -24,7 +24,7 @@ class Flight {
         seats = new Passenger[MAX_SEATS];
         System.out.println("Flight Created with " + MAX_SEATS + " seats.");
     }
-    // Book seat method
+    
     public boolean bookSeat(Passenger p) {
 
         // Check duplicate booking
@@ -69,7 +69,7 @@ public class Main {
         // Create passengers
         Passenger p1 = new Passenger("Aman", 1);
         Passenger p2 = new Passenger("Rahul", 2);
-        Passenger p3 = new Passenger("Riya", 3);
+        Passenger p3 = new   Passenger("Riya", 3);
         Passenger p4 = new Passenger("Neha", 4);
         Passenger p5 = new Passenger("Arjun", 5);
         Passenger p6 = new Passenger("Simran", 6);
